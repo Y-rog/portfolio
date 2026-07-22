@@ -25,7 +25,7 @@
         <section>
             <h3>Formation</h3>
             <ul>
-                <li><strong>Concepteur, Développeur de Solutions Digitales</strong> — Bac+4 (France) / équivalent Baccalauréat</li>
+                <li><strong>Concepteur, Développeur de Solutions Digitales</strong> — Bac+3/4 (France) / équivalent Baccalauréat</li>
                 <li><strong>Développeur Web et Web Mobile</strong> — Bac+2 (France) / équivalent DEC</li>
             </ul>
         </section>
@@ -52,6 +52,27 @@
         <section>
             <h3>Projets</h3>
             <div class="projects">
+
+                <!-- IoT Hub -->
+                <div class="project">
+                    <h4>IoT Hub</h4>
+                    <div class="project-screenshots">
+                        <img src="images/iot-hub-airthings.png" alt="Dashboard IoT Hub - Capteurs Airthings" class="project-screenshot">
+                        <img src="images/iot-hub-thermostats.png" alt="Dashboard IoT Hub - Thermostats" class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <ul>
+                            <li><strong>Contexte :</strong> Projet personnel de domotique pour piloter le chauffage et surveiller la qualité de l'air de la maison en temps réel.</li>
+                            <li><strong>Mission :</strong> Backend en architecture hexagonale modulaire (ports & adapters) intégrant l'API Airthings (OAuth2) et des thermostats Zigbee via MQTT. Authentification JWT multi-utilisateurs, notifications push en temps réel sur seuils dépassés (CO2, radon, VOC, particules fines), et frontend Angular en PWA installable (desktop et mobile), déployé en HTTPS sur VPS avec tunnel Tailscale vers un Raspberry Pi.</li>
+                            <li><strong>Stack :</strong> Spring Boot (multi-modules), Spring Security, JWT, Flyway, PostgreSQL, MQTT, Zigbee2MQTT, OAuth2, Angular 18, PWA, Web Push, Docker, Nginx, VPS Hostinger, Raspberry Pi, Tailscale.</li>
+                        </ul>
+                        <div class="links">
+                            <a href="https://iot-hub.y-rog.com" target="_blank">Voir le projet (accès privé)</a>
+                            <a href="https://github.com/Y-rog/api-iot-hub" target="_blank">GitHub API</a>
+                            <a href="https://github.com/Y-rog/iot-hub-front" target="_blank">GitHub Front</a>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Fermette des Trois Tilleuls -->
                 <div class="project">
