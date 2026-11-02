@@ -16,7 +16,7 @@ HTML · CSS · GitHub Actions (déploiement automatique sur Azure Static Web App
 - **Fermette des Trois Tilleuls** — Site vitrine avec réservation en ligne et espace admin (Spring Boot, Thymeleaf, PostgreSQL) → [voir](https://fermette.y-rog.com)
 - **Équipes-UL** — Plateforme de collaboration de type Discord, projet de session en équipe (Java, Jersey, Vue.js)
 - **Billetterie Jeux Olympiques** — Billetterie full-stack avec messagerie asynchrone (Angular, Spring Boot, RabbitMQ)
-- **Arcadia Zoo** — Application multi-rôles pour la gestion d'un zoo (PHP, Symfony, Bootstrap, Cloudinary)
+- **Arcadia Zoo** — Application multi-rôles pour la gestion d'un zoo (PHP, Bootstrap, Cloudinary)
 
 ## Contact
 
